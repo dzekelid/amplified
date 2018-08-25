@@ -15,9 +15,10 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/amplified/master/_listings/fire-browse/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Fire Browse Beta API
-  x-api-slug: fire-browse-beta-api
-  description: a-simple-and-elegant-way-to-explore-cancer-data
+- name: Fire Browse Beta API - Retrieve Gistic2 significantly amplified genes results.
+  x-api-slug: analysescopynumbergenesamplified-get
+  description: This service provides access to the Gistic2 amp_genes.conf_99.txt output
+    data.  At least 1 gene or cohort must be supplied.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png
   humanURL: http://firebrowse.org
   baseURL: https://firebrowse.org//api/v1
@@ -27,20 +28,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/amplified/master/_listings/fire-browse/analysescopynumbergenesamplified-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/amplified/master/_listings/fire-browse/analysescopynumbergenesamplified-get-openapi.md
-- name: Fire Browse Beta API
-  x-api-slug: fire-browse-beta-api
-  description: A simple and elegant way to explore cancer data. Sitting above one
-    of the deepest and most integratively characterized open cancer datasets in the
-    world. Backed by a powerful computational infrastructure, application programming
-    interface (API), graphical tools and online reports. With over 80K sample aliquots
-    from 11,000+ cancer patients, spanning 38 unique disease cohorts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png
-  humanURL: http://firebrowse.org
-  baseURL: https://firebrowse.org//api/v1
-  tags: Amplified
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/amplified/master/_listings/fire-browse/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://factual.api.gallery.streamdata.io
